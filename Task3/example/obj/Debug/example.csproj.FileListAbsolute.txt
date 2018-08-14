@@ -1,0 +1,7 @@
+D:\Development\Visual Studio 2017 IDE\All Solutions\Task 3\example\bin\Debug\example.exe.config
+D:\Development\Visual Studio 2017 IDE\All Solutions\Task 3\example\bin\Debug\example.exe
+D:\Development\Visual Studio 2017 IDE\All Solutions\Task 3\example\bin\Debug\example.pdb
+D:\Development\Visual Studio 2017 IDE\All Solutions\Task 3\example\obj\Debug\example.csprojAssemblyReference.cache
+D:\Development\Visual Studio 2017 IDE\All Solutions\Task 3\example\obj\Debug\example.csproj.CoreCompileInputs.cache
+D:\Development\Visual Studio 2017 IDE\All Solutions\Task 3\example\obj\Debug\example.exe
+D:\Development\Visual Studio 2017 IDE\All Solutions\Task 3\example\obj\Debug\example.pdb

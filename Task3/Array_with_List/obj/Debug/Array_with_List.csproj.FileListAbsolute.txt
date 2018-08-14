@@ -1,0 +1,7 @@
+D:\Development\Visual Studio 2017 IDE\All Solutions\Task 3\Array_with_List\bin\Debug\Array_with_List.exe.config
+D:\Development\Visual Studio 2017 IDE\All Solutions\Task 3\Array_with_List\bin\Debug\Array_with_List.exe
+D:\Development\Visual Studio 2017 IDE\All Solutions\Task 3\Array_with_List\bin\Debug\Array_with_List.pdb
+D:\Development\Visual Studio 2017 IDE\All Solutions\Task 3\Array_with_List\obj\Debug\Array_with_List.csprojAssemblyReference.cache
+D:\Development\Visual Studio 2017 IDE\All Solutions\Task 3\Array_with_List\obj\Debug\Array_with_List.csproj.CoreCompileInputs.cache
+D:\Development\Visual Studio 2017 IDE\All Solutions\Task 3\Array_with_List\obj\Debug\Array_with_List.exe
+D:\Development\Visual Studio 2017 IDE\All Solutions\Task 3\Array_with_List\obj\Debug\Array_with_List.pdb
