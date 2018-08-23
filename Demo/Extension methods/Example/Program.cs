@@ -44,30 +44,36 @@ namespace Example
         {
             static void Main(string[] args)
             {
-                string s = "Привет мир";
-                char c = 'и';
-                int i = s.WordCount(c);
-                Console.WriteLine(i);
-
-                Console.ReadLine();
+            //String s = null;
+            int s = int.Parse(Console.ReadLine());
+            string str = Convert.ToString(s);
+            Console.WriteLine("First test's result: " + StringExtension.IsNullOrEmpty(str));
+            Console.ReadLine();
             }
         }
-
-        public static class StringExtension
+    public static class StringExtension
+    {
+        public static bool IsNullOrEmpty(String str)
         {
-            public static int WordCount(this string str, char c)
-            {
-                int counter = 0;
-                for (int i = 0; i < str.Length; i++)
-                {
-                    if (str[i] == c)
-                        counter++;
-                }
-                return counter;
-            }
-        }
 
+            return (str == null || str.Length == 0);
+        }
     }
+    //public static class StringExtension
+    //{
+    //    public static int WordCount(this string str, char c)
+    //    {
+    //        int counter = 0;
+    //        for (int i = 0; i < str.Length; i++)
+    //        {
+    //            if (str[i] == c)
+    //                counter++;
+    //        }
+    //        return counter;
+    //    }
+    //}
+
+}
         
 //    }
 //}

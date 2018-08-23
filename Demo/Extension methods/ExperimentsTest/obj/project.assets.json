@@ -5746,11 +5746,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Development\\GitHub\\Code\\Extension methods\\ExperimentsTest\\ExperimentsTest.csproj",
+      "projectUniqueName": "D:\\Development\\GitHub\\Code\\Demo\\Extension methods\\ExperimentsTest\\ExperimentsTest.csproj",
       "projectName": "ExperimentsTest",
-      "projectPath": "D:\\Development\\GitHub\\Code\\Extension methods\\ExperimentsTest\\ExperimentsTest.csproj",
+      "projectPath": "D:\\Development\\GitHub\\Code\\Demo\\Extension methods\\ExperimentsTest\\ExperimentsTest.csproj",
       "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "D:\\Development\\GitHub\\Code\\Extension methods\\ExperimentsTest\\obj\\",
+      "outputPath": "D:\\Development\\GitHub\\Code\\Demo\\Extension methods\\ExperimentsTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
