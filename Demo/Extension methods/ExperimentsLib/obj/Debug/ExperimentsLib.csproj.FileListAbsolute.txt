@@ -1,0 +1,6 @@
+D:\Development\GitHub\Code\Demo\Extension methods\ExperimentsLib\bin\Debug\ExperimentsLib.dll
+D:\Development\GitHub\Code\Demo\Extension methods\ExperimentsLib\bin\Debug\ExperimentsLib.pdb
+D:\Development\GitHub\Code\Demo\Extension methods\ExperimentsLib\obj\Debug\ExperimentsLib.csprojAssemblyReference.cache
+D:\Development\GitHub\Code\Demo\Extension methods\ExperimentsLib\obj\Debug\ExperimentsLib.csproj.CoreCompileInputs.cache
+D:\Development\GitHub\Code\Demo\Extension methods\ExperimentsLib\obj\Debug\ExperimentsLib.dll
+D:\Development\GitHub\Code\Demo\Extension methods\ExperimentsLib\obj\Debug\ExperimentsLib.pdb
