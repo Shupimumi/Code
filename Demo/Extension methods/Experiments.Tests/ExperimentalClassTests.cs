@@ -20,24 +20,17 @@ namespace Experiments.Tests
         [TestMethod]
         public void IsDateTimeTest_EnteredStringWithDate_TrueOrFalseReturned()
         {
-            // Arrange
-            String str = "2018.08.29.22.11.30";
-            String str1 = "Hello World";
             // Assert
-            Assert.IsTrue(str.IsDateTime());
-            Assert.IsFalse(str1.IsDateTime());
+            Assert.IsTrue("2018.08.29.22.11.30".IsDateTime());
+            Assert.IsFalse("Hello World".IsDateTime());
         }
         [TestMethod]
         public void ToDateTime_StringEntered_DateReturned()
         {
             // Arrange
-            String str = "2018.08.29.22.11.30";
             DateTime expectedDate = new DateTime(2018, 08, 29, 22, 11, 30);
-            // Act 
-            DateTime actualDate = new DateTime();
-            actualDate = str.ToDateTime();
             // Assert
-            Assert.AreEqual(expectedDate, actualDate);
+            Assert.AreEqual(expectedDate, "2018.08.29.22.11.30".ToDateTime());
         }
         [TestMethod]
         public void IsEmpty_StringEntered_TrueReturned()
