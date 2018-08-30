@@ -19,3 +19,6 @@ D:\Development\GitHub\Code\Demo\Extension methods\Experiments\obj\Debug\Experime
 D:\Development\GitHub\Code\Demo\Extension methods\Experiments\obj\Debug\Experiments.csproj.CoreCompileInputs.cache
 D:\Development\GitHub\Code\Demo\Extension methods\Experiments\obj\Debug\Experiments.exe
 D:\Development\GitHub\Code\Demo\Extension methods\Experiments\obj\Debug\Experiments.pdb
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments\bin\Debug\ExperimentsLib.dll
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments\bin\Debug\ExperimentsLib.pdb
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments\obj\Debug\Experiments.csproj.CopyComplete

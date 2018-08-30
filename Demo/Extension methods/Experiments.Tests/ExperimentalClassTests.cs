@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ExperimentsLib;
 
 namespace Experiments.Tests
 {
@@ -9,51 +10,40 @@ namespace Experiments.Tests
         [TestMethod]
         public void IsNullOrEmpty_Hello_World_returned_true()
         {
-            //arrange
-            String str = "Hello World";
-            bool expected = true;
-            bool actual;
 
-            //act           
-            ////StringExtension s = new StringExtension();
-            ////bool actual = str.IsNullOrEmpty(s);
-            /*(здесь я пытался не прописывать с самого начала метод 
-            а закинуть эти данные в метод который находится в библиотеке классов,
-           то есть я пытался сделать тоже самое что написано в видео, также подключил StringExtension в зависимость
-           к Experiments.Tests, но он выдаёт ошибку, что нельзя использовать в данном контексте название этого класса)*/
+           // Assert
+            Assert.IsTrue("".IsNullOrEmpty());
+            Assert.IsTrue(StringExtension.IsNullOrEmpty(null));
+            Assert.IsFalse("abc".IsNullOrEmpty());
 
-            if (str == null || str.Length == 0)
-            {
-                actual = false;
-            }
-            else
-            {
-                actual = true;
-            }
-            // assert
-            Assert.AreEqual(expected, actual);
         }
         [TestMethod]
-        public void IsDateTimeTest_EnteredStringWithDate_TheSameDateReturned()
+        public void IsDateTimeTest_EnteredStringWithDate_TrueOrFalseReturned()
         {
             // Arrange
-            String str = "2018.8.29.22.11.30";
-            Char flag = '.';
-            DateTime expectedDate = new DateTime(2018, 8, 29, 22, 11, 30);
-
-            // Act
-            String[] substrings = str.Split(flag);
-            int year = Convert.ToInt32(substrings[0]);
-            int month = Convert.ToInt32(substrings[1]);
-            int day = Convert.ToInt32(substrings[2]);
-            int hour = Convert.ToInt32(substrings[3]);
-            int minute = Convert.ToInt32(substrings[4]);
-            int second = Convert.ToInt32(substrings[5]);
-            DateTime actualDate = new DateTime(year, month, day, hour, minute, second);
-
+            String str = "2018.08.29.22.11.30";
+            String str1 = "Hello World";
+            // Assert
+            Assert.IsTrue(str.IsDateTime());
+            Assert.IsFalse(str1.IsDateTime());
+        }
+        [TestMethod]
+        public void ToDateTime_StringEntered_DateReturned()
+        {
+            // Arrange
+            String str = "2018.08.29.22.11.30";
+            DateTime expectedDate = new DateTime(2018, 08, 29, 22, 11, 30);
+            // Act 
+            DateTime actualDate = new DateTime();
+            actualDate = str.ToDateTime();
             // Assert
             Assert.AreEqual(expectedDate, actualDate);
-
-        }        
+        }
+        [TestMethod]
+        public void IsEmpty_StringEntered_TrueReturned()
+        {
+            // Assert
+            Assert.IsTrue("Hello World".IsEmpty());
+        }
     }
 }

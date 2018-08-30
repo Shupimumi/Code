@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ExperimentsLib;
 
 namespace Experiments
 {
@@ -18,14 +19,14 @@ namespace Experiments
             {
                 choose = int.Parse(Console.ReadLine());
             } while (choose < 1 || choose > 2);
-            if (choose == 1)
+            if (choose == 2)
             {
                 Console.WriteLine("Enter string: ");
                 s = Convert.ToString(Console.ReadLine());
                 Console.WriteLine("<Null or Empty> test's result: " + s.IsNullOrEmpty());
                 Console.WriteLine("<Is empty?, lenght, value> test's result: " + s.IsEmpty());
             }
-            if (choose == 2)
+            if (choose == 1)
             {
                 Console.WriteLine("Enter string (example: YYYY.MM.DD.HH.MM.SS): ");
                 s = Convert.ToString(Console.ReadLine());
