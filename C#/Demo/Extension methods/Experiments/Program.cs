@@ -11,7 +11,6 @@ namespace Experiments
     {
         static void Main(string[] args)
         {
-
             String s;
             int choose;
             Console.WriteLine("Just choose your variant and enter 1 or 2. \n1.I want to enter any date. \n2.I want to enter any other string.");
