@@ -1,0 +1,16 @@
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments.Tests\obj\Debug\Experiments.Tests.csprojAssemblyReference.cache
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments.Tests\obj\Debug\Experiments.Tests.csproj.CoreCompileInputs.cache
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments.Tests\bin\Debug\Experiments.Tests.dll
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments.Tests\bin\Debug\Experiments.Tests.pdb
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments.Tests\bin\Debug\ExperimentsLib.dll
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments.Tests\bin\Debug\ExperimentsLib.pdb
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments.Tests\obj\Debug\Experiments.Tests.csproj.CopyComplete
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments.Tests\obj\Debug\Experiments.Tests.dll
+D:\Development\GitHub\Code\Demo\Extension methods\Experiments.Tests\obj\Debug\Experiments.Tests.pdb
